@@ -18,8 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        restaurant: "bg-restaurant-warm text-restaurant-warm-foreground hover:bg-restaurant-warm/90 shadow-md hover:shadow-lg transition-all duration-300",
-        elegant: "bg-restaurant-elegant text-restaurant-elegant-foreground hover:bg-restaurant-elegant/90 shadow-md hover:shadow-lg transition-all duration-300",
+        restaurant: "bg-restaurant-red text-restaurant-red-foreground hover:bg-restaurant-red/90 shadow-lg hover:shadow-xl transition-all duration-300",
+        gold: "bg-restaurant-gold text-restaurant-gold-foreground hover:bg-restaurant-gold/90 shadow-lg hover:shadow-xl transition-all duration-300",
+        elegant: "bg-restaurant-dark text-restaurant-dark-foreground hover:bg-restaurant-dark/90 shadow-lg hover:shadow-xl transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
