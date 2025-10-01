@@ -8,57 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Base colors - warm cream background */
-    --background: 45 40% 97%;
-    --foreground: 25 15% 20%;
+    /* Base colors - clean app background */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
 
     --card: 0 0% 100%;
-    --card-foreground: 25 15% 20%;
+    --card-foreground: 222 47% 11%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 25 15% 20%;
+    --popover-foreground: 222 47% 11%;
 
-    /* Primary - warm red */
-    --primary: 2 75% 55%;
+    /* Primary - vibrant blue */
+    --primary: 221 83% 53%;
     --primary-foreground: 0 0% 100%;
 
-    /* Secondary - soft cream */
-    --secondary: 45 35% 94%;
-    --secondary-foreground: 25 15% 20%;
+    /* Secondary - light gray */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 45 25% 90%;
-    --muted-foreground: 25 10% 50%;
+    --muted: 210 20% 92%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 45 60% 85%;
-    --accent-foreground: 25 15% 20%;
+    --accent: 210 40% 94%;
+    --accent-foreground: 222 47% 11%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 45 25% 88%;
-    --input: 45 25% 92%;
-    --ring: 2 75% 55%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 221 83% 53%;
 
-    /* Restaurant brand colors */
-    --restaurant-red: 2 75% 55%;
-    --restaurant-red-foreground: 0 0% 100%;
-    --restaurant-gold: 45 85% 65%;
-    --restaurant-gold-foreground: 25 15% 20%;
-    --restaurant-cream: 45 40% 95%;
-    --restaurant-cream-foreground: 25 15% 20%;
-    --restaurant-dark: 25 25% 25%;
-    --restaurant-dark-foreground: 0 0% 100%;
-
-    /* Gradients */
-    --gradient-warm: linear-gradient(135deg, hsl(2, 75%, 55%), hsl(15, 70%, 60%));
-    --gradient-gold: linear-gradient(135deg, hsl(45, 85%, 65%), hsl(50, 80%, 70%));
-    --gradient-elegant: linear-gradient(135deg, hsl(25, 25%, 25%), hsl(20, 30%, 30%));
-    --gradient-subtle: linear-gradient(180deg, hsl(45, 40%, 97%), hsl(45, 35%, 94%));
+    /* Category colors */
+    --category-groceries: 142 71% 45%;
+    --category-snacks: 45 93% 47%;
+    --category-household: 262 52% 47%;
+    --category-fruits: 30 100% 50%;
+    --category-beverages: 199 89% 48%;
+    --category-personal: 340 82% 52%;
+    --category-others: 215 16% 47%;
 
     /* Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(25, 25%, 25%, 0.15);
-    --shadow-warm: 0 8px 25px -8px hsl(2, 75%, 55%, 0.25);
-    --shadow-gold: 0 6px 20px -6px hsl(45, 85%, 65%, 0.3);
+    --shadow-sm: 0 1px 2px 0 hsl(222, 47%, 11%, 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(222, 47%, 11%, 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(222, 47%, 11%, 0.1);
 
     --radius: 0.75rem;
 

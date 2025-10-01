@@ -19,8 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'playfair': ['Playfair Display', 'serif'],
-				'inter': ['Inter', 'sans-serif'],
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -56,15 +55,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				restaurant: {
-					red: 'hsl(var(--restaurant-red))',
-					'red-foreground': 'hsl(var(--restaurant-red-foreground))',
-					gold: 'hsl(var(--restaurant-gold))',
-					'gold-foreground': 'hsl(var(--restaurant-gold-foreground))',
-					cream: 'hsl(var(--restaurant-cream))',
-					'cream-foreground': 'hsl(var(--restaurant-cream-foreground))',
-					dark: 'hsl(var(--restaurant-dark))',
-					'dark-foreground': 'hsl(var(--restaurant-dark-foreground))'
+				category: {
+					groceries: 'hsl(var(--category-groceries))',
+					snacks: 'hsl(var(--category-snacks))',
+					household: 'hsl(var(--category-household))',
+					fruits: 'hsl(var(--category-fruits))',
+					beverages: 'hsl(var(--category-beverages))',
+					personal: 'hsl(var(--category-personal))',
+					others: 'hsl(var(--category-others))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
